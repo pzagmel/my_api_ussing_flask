@@ -4,6 +4,10 @@ app = Flask (__name__)
 
 @app.route("/hola/<saludo>", methods= ["POST"])
 
+#saludo entra como parametro dentro de la funcion... en postman
+#POST htpps...../hola/holi, 
+#                     este es el (saludo)
+
 def hola (saludo):
     data = request.get_json()
     return (saludo+ data["nombre"])
