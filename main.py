@@ -14,3 +14,5 @@ def hola (saludo):
 
 app.run('0.0.0.0')
 
+
+#en la terminal python main.py-------------> haces correr el servidor
